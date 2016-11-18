@@ -1,0 +1,124 @@
+	/*** Inserta tu codigo aqui ***/
+		/*** GENERAL ***/
+/*BODY*/
+body {
+	background-color: #0079BF;
+}
+/*HEADER*/
+header{
+	background-color: #2A7B98;
+}
+/*Logo*/
+.logo{
+	width: 10%;
+	height: 5%;
+	color: white;
+}
+	/*** ELEMENTOS TRELLO (Tablero,Listas,Tarjetas)***/
+/*Clase de los elementos creados por anadirLista*/
+.lsta {
+  padding: 7px;
+  width: 270px;
+}
+/*Div principal que contiene todos los elementos de una lista*/
+#lista{
+  display: inline-block;
+  float: left;
+  border-radius: 5px;
+  background-color: #E2E4E6;
+  margin-top: 2%;
+  margin-left: 1%;
+  padding: 7px;
+  width: 265px;
+}
+/*Div que añade elementos a la lista*/
+#anadirLista{
+  width: 250px;
+  height: 30px;
+  padding: 4px;
+  border-radius: 5px;
+  background-color: #006BA9;
+  color: rgba(255,255,255,.7);
+}
+/*Div que añade elementos a la lista. CSS de cuando para esconder*/
+#anadirLista:hover{
+  background-color:  #006BA9;
+  color: rgb(255,255,255);
+  cursor: pointer;
+}
+/*Div principal que contiene todas las listas. Es el que funciona como tablero*/
+#subContenedor{
+	display: inline-block;
+}
+/*Div que contiene el input tipo texto y boton iniciales*/
+#formulario{
+  background-color:#E2E4E6;
+  width: 250px;
+  padding: 8px;
+  border-radius: 5px;
+  display: none;
+}
+/*CSS del input tipo texto*/
+#inputLista{
+  background: white;
+  border-color: #aaa;
+  border-radius: 3px;
+  border: 1px solid #cdd2d4;
+  padding: 5px;
+  width: 100%;
+}
+	/*** CSS de los nuevos elementos***/
+.nuevalsta{
+  width: 250px;
+  background-color: #E2E4E6;
+  font-weight: bold;
+  padding: 9px;
+  border-radius: 5px;
+  white-space: pre-line;
+  word-break: break-word;
+}
+/*CSS del elemento que sirve como cojin. Intermediario de la creacion de elementos*/
+.nuevocampo{
+  display: inline-block;
+  background-color: #E2E4E6;
+  vertical-align: top;
+  border-radius: 5px;
+  margin-left: 1%;
+  margin-top: 2%;
+}
+/*CSS de la nueva tarjeta*/
+.card{
+  background-color: #E2E4E6;
+  width: 100%;
+}
+/*CSS de la textarea donde se ingresa la tarea*/
+.textarea{
+  resize: none;
+  width: 100%;
+  height: 80px;
+  border-radius: 4px;
+}
+/*CSS de tarjeta presente. La tarjeta que se esta creando*/
+.tarjeta1{
+  background-color: white;
+  border-radius: 5px;
+  margin: 8px 0;
+  padding: 4px;
+}
+/*CSS de tarjeta futura. La tarjeta que se va a crear*/
+.tarjeta2{
+  background-color: #E2E4E6;
+  border-radius: 5px;
+  border:1px solid #E2E4E6;
+}
+		/****	Padding y Margin	****/
+.pd-5{
+	padding: 3% 5%;
+}
+.mgt-3{
+	margin-top: 3%;
+}
+/*Código de transicion*/
+.animate{
+  -webkit-transform: skew(5deg, 10deg);
+}
